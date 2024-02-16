@@ -3,12 +3,15 @@
 
 .header {
     background-color: black;
-    margin: 30px 80px 0 80px;
+    margin: 30px 80px 0 300px;
     width: 1320px;
     height: 600px;
     color: #fff;
     background-position: center;
+}
 
+.container-title {
+    margin-bottom: 300px;
 }
 
 #banner-img {
@@ -31,11 +34,9 @@ main {
 }
 
 .holyday-deals {
-    display: block;
     justify-items: center;
     width: 800px;
     height: 810px;
-    position: absolute;
     margin: 40px 200px 0 200px;
     text-align: center;
 }
@@ -50,7 +51,35 @@ main {
     color: #f03434;
 }
 
-.midnight-party {
+.midnight-perty {
+    background-color: black;
+    margin-right: 300px;
     width: 1320px;
     height: 600px;
+    color: #fff;
+    display: flex;
+    text-align: justify;
+    background-image: url(../resources/Vectorrr.png);
+    opacity: 0.8;
+}
+
+.midnight-perty-content {
+    margin: 50px 100px;
+}
+
+.newyear-img {
+    margin: 50px 150px;
+}
+
+.pery-description {
+    margin-top: 30px;
+}
+
+.join-now {
+    margin-top: 200px;
+    border: 0;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+
 }
