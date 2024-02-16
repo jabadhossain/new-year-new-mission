@@ -25,13 +25,18 @@
     font-weight: 800px;
 }
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .holyday-deals {
     display: block;
     justify-items: center;
     width: 800px;
     height: 810px;
     position: absolute;
-    margin: 40px 200px 0 350px;
+    margin: 40px 200px 0 200px;
     text-align: center;
 }
 
@@ -43,4 +48,9 @@
 
 .deals-title {
     color: #f03434;
+}
+
+.midnight-party {
+    width: 1320px;
+    height: 600px;
 }
