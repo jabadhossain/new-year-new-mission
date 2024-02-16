@@ -125,12 +125,30 @@ main {
     width: 1320px;
     height: 460px;
     margin: 100px;
+    padding-bottom: 100px;
 }
 
 .holyday-sell {
     width: 1320px;
     height: 990;
+}
 
+.ellipse {
+    border: solid red;
+    border-width: 15px;
+    border-radius: 360px;
+    padding: 20px;
+    margin: 60px;
+    width: 465px;
+    height: 465px;
+}
+
+.year {
+    margin-top: 200px;
+}
+
+.best-offer {
+    margin-top: 200px;
 }
 
 .best-gift {
