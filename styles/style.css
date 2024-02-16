@@ -54,9 +54,10 @@ main {
 
 .midnight-perty {
     background-color: black;
-    margin-right: 300px;
+    margin-right: 200px;
     width: 1320px;
     height: 600px;
+    border-radius: 16px;
     color: #fff;
     display: flex;
     text-align: justify;
@@ -72,7 +73,7 @@ main {
     margin: 50px 150px;
 }
 
-.pery-description {
+.perty-description {
     margin-top: 30px;
 }
 
@@ -86,11 +87,59 @@ main {
 
 }
 
+.location {
+    justify-items: center;
+    width: 1320px;
+    height: 600px;
+    margin-top: 100px;
+    text-align: center;
+    background-image: linear-gradient(#FDD7E4, #FFE6E8, #FEFCFF);
+    padding: 100px;
+    border-radius: 16px;
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.span {
+    color: red;
+}
+
+.date {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-join {
+    font-size: 20px;
+    font-weight: 400px;
+    background-color: #E42217;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: 0;
+}
+
+.coming-soon {
+    display: flex;
+    width: 1320px;
+    height: 460px;
+    margin: 100px;
+}
+
+.holyday-sell {
+    width: 1320px;
+    height: 990;
+
+}
+
 .best-gift {
     width: 1320px;
     height: 1150px;
     margin-top: 50px;
 }
+
+
 
 .best-gift-portfolio {
     display: grid;
