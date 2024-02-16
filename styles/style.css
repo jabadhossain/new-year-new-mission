@@ -24,3 +24,23 @@
     font-size: 30px;
     font-weight: 800px;
 }
+
+.holyday-deals {
+    display: block;
+    justify-items: center;
+    width: 800px;
+    height: 810px;
+    position: absolute;
+    margin: 40px 200px 0 350px;
+    text-align: center;
+}
+
+.deals {
+    color: #E42217;
+    font-size: 50px;
+    font-weight: 800px;
+}
+
+.deals-title {
+    color: #f03434;
+}
