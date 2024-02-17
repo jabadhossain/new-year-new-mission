@@ -30,8 +30,10 @@
 }
 
 main {
-    max-width: 1140px;
+    max-width: 1300px;
     margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 .holyday-deals {
@@ -89,8 +91,8 @@ main {
 
 .location {
     justify-items: center;
-    width: 1320px;
-    height: 600px;
+    width: 1200px;
+    height: 500px;
     margin-top: 100px;
     text-align: center;
     background-image: linear-gradient(#FDD7E4, #FFE6E8, #FEFCFF);
@@ -124,14 +126,12 @@ main {
     display: flex;
     width: 1320px;
     height: 460px;
-    margin: 100px;
+    margin: 100px 100px 200px 0;
     padding-bottom: 100px;
+
 }
 
-.holyday-sell {
-    width: 1320px;
-    height: 990;
-}
+
 
 .ellipse {
     border: solid red;
@@ -143,18 +143,38 @@ main {
     height: 465px;
 }
 
-.year {
+.year-title {
     margin-top: 200px;
+    color: #E42217;
+    font-size: 40px;
+    font-weight: 400px;
 }
 
 .best-offer {
     margin-top: 200px;
 }
 
+.best-offer-title {
+    color: #f03434;
+    font: 20px;
+}
+
+.best-offer-heading {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+.best-offer-description {
+    color: #757575;
+    font-size: 15px;
+}
+
+
 .best-gift {
     width: 1320px;
     height: 1150px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 
@@ -182,22 +202,40 @@ main {
 }
 
 .newsletter {
-    justify-items: center;
     width: 1320px;
     height: 600px;
+    justify-items: center;
     text-align: center;
     background-color: #FFE6E8;
     padding: 50px;
     border-radius: 16px;
 }
 
-
-
 form {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 
 }
+
+.subscriber {
+    background-color: #f03434;
+    border-radius: 0 50px 50px 0;
+    color: #fff;
+    padding: 10px 20px;
+    border-width: 0;
+    font-size: 20px;
+}
+
+.mail {
+    background-color: #fff;
+    border-radius: 50px 0px 0px 50px;
+    padding: 10px 20px;
+    border-width: 0;
+    font-size: 20px;
+}
+
+
 
 footer {
     background-color: black;
